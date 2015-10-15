@@ -1,6 +1,7 @@
 #Perceptron
 #Angel Amaury Vela Mireles
 #15-Octubre-2015
+#https://github.com/AmauryVela/perceptron
 #This code is distributed under the terms and conditions of the MIT Licence.
 # Programa el algoritmo del Perceptrón en R y sube aquí el código documentado. Valor 1.5 puntos.
 
@@ -43,7 +44,7 @@ harlim <- function(x){
 #------ INICIO DE PROGRAMA -----------
 #Este programa esta basado en el ejemplo visto en clase pensado en la funcion Harlim.
 #A continuacion vamos a cargar un csv con los puntos
-data <- read.csv("/Users/amauryvela/Downloads/puntosp.csv", header = FALSE, sep = ',')
+data <- read.csv("/Users/amauryvela/Desktop/perceptron/puntosp.csv", header = FALSE, sep = ',')
 matrix <- as.matrix(data)
 
 
